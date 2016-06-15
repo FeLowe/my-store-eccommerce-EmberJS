@@ -1,0 +1,28 @@
+<div class="container">
+
+  <form class="form-signin">
+    <h2 class="form-signin-heading">Please Add Item</h2>
+    {{#x-select action="selectCategory"}}
+      {{#x-option value=""}}please select a category{{/x-option}}
+      {{#each categories as |category|}}
+      {{#x-option value=category}}{{category.title}}{{/x-option}}
+      <!-- <option value="purses" id="purses"> purses </option>
+      <option value="makeup" id="makeup"> makeup </option> -->
+      {{/each}}
+    {{/x-select}} <hr>
+    <label for="name" >Item name</label>
+    {{input type="text" value=name id="name" class="form-control" placeholder="item name"}}
+    <br>
+    <label for="price" >Price</label>
+    {{input type="number" id="price" value=price class="form-control" placeholder="price"}}
+    <br>
+    <label for="description">Item description</label>
+    {{textarea type="text" id="description" value=description class="form-control" placeholder="type a description"}}
+    <br>
+    <label for="imageItem" >Image</label>
+    {{input type="url" id="imageItem" value=imageItem class="form-control" placeholder="insert the image url"}}
+    <br>
+    <button class="btn btn-lg btn-primary btn-block" {{action 'addItem'}}>Add Item</button>
+  </form>
+
+</div> <!-- /container -->

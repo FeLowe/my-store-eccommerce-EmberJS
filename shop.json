@@ -9,35 +9,30 @@
     "imageCat": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
   }],
   "items": [{
-    "category": "shoes",
     "brand":"TOMS",
     "name": "Desert Platform",
     "price": "$59.97",
     "description": "A pieced leather bootie set on a sleek wrapped wedge makes for a versatile style that toes the line between casual and sophisticated. ",
     "imageItem": "http://media03.toms.com/static/www/images/product/product_image_1450x1015_Side/10006248-FH15-BLACK-SUEDE-WM-DSWDG-BOOT-DESERT-WEDGE-WN-S-1450x1015.jpg"
   }, {
-    "category": "shoes",
     "brand":"Ivanka Trump",
     "name": "Derri Peep Toe",
     "price": "$24.47",
     "description": "Smooth suede in a sultry bold hue crafts a peek-a-boo toe bootie lifted on a covered stiletto heel.",
     "imageItem": "https://s-media-cache-ak0.pinimg.com/736x/ea/8d/d0/ea8dd0e698f26bcc40b793f03d6b1130.jpg"
   }, {
-    "category": "shoes",
     "brand":"Dolce Vita",
     "name": "Mazarine Peep",
     "price": "$53.98",
     "description": "Fringe trims the side of a suede peep-toe bootie with stacked block heel.",
     "imageItem": "https://cdna.lystit.com/photos/3f19-2016/01/18/dolce-vita-tan-dv-mazarine-fringe-peep-toe-boots-brown-product-2-491867765-normal.jpeg"
   }, {
-    "category": "shoes",
     "brand":"TOMS",
     "name": "Desert Platform",
     "price": "59.97$",
     "description": "A pieced leather bootie set on a sleek wrapped wedge makes for a versatile style that toes the line between casual and sophisticated. ",
     "imageItem": "http://media03.toms.com/static/www/images/product/product_image_1450x1015_Side/10006248-FH15-BLACK-SUEDE-WM-DSWDG-BOOT-DESERT-WEDGE-WN-S-1450x1015.jpg"
   }, {
-    "category": "shoes",
     "brand":"Legend Footwear",
     "name": "Berlin Laser-Cut",
     "price": "$24.97",
