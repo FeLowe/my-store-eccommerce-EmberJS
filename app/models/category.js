@@ -4,5 +4,6 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   title: DS.attr(),
-  imageCat: DS.attr()
+  imageCat: DS.attr(),
+  items: DS.hasMany('item', {async: true})
 });
