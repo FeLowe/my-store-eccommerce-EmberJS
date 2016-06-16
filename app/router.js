@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('category', {path:'/category/:category_id'});
   this.route('admin');
+  this.route('clearance');
 });
 
 export default Router;

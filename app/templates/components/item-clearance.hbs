@@ -1,0 +1,41 @@
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Jumbotron Header -->
+  <header class="jumbotron hero-spacer" style="background-color: transparent">
+  <img src="http://blog.panache-lingerie.com/wp-content/uploads/2013/01/sale.jpg" class="img-responsive img-center" style="margin-left: 15%">
+  </header>
+
+  <hr>
+
+  <!-- Title -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>Latest Features</h3>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Page Features -->
+  <div class="row text-center">
+
+    {{#each clearanceItems as |item|}}
+
+    <div class="col-md-3 col-sm-6 hero-feature">
+      <div class="thumbnail">
+        <img src={{item.imageItem}} alt="imageItem" style="width: 70px; height: 70px">
+        <div class="caption">
+          <h3 style="font-size: 14px">{{item.name}}</h3>
+          <p style="font-size: 10px">{{item.description}}.</p>
+          <p>
+            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
