@@ -17,22 +17,25 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">My Store</a>
+      {{#link-to 'index'}}<div class="navbar-brand" >My Store</div>{{/link-to}}
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li>
+        <!-- <li>
           <a href="#">About</a>
+        </li> -->
+        <li>
+          {{#link-to 'clearance'}}Clearance{{/link-to}}
+        </li>
+        <!-- <li>
+          {{#link-to 'contact'}}Contact</a>{{/link-to}}
+        </li> -->
+        <li>
+          {{#link-to 'admin'}}Admin{{/link-to}}
         </li>
         <li>
-          <a href="/clearance">Clearance</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-        <li>
-          <a href="/admin">Admin</a>
+          {{#link-to 'shopping'}}<span class="glyphicon glyphicon-shopping-cart"></span>{{/link-to}}
         </li>
       </ul>
     </div>
