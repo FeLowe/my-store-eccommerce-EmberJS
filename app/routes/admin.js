@@ -11,7 +11,10 @@ export default Ember.Route.extend({
     addItem(params){
       console.log(params);
       var newItem = this.store.createRecord('item', params);
-      newItem.save();
+      params.category.get('items').addObject(newItem);
+      newItem.save().then(function() {
+        return params.category.save();
+      });
       // this.transitionTo('admin');
     }
   }

@@ -8,7 +8,7 @@ export default Ember.Component.extend({
 
   addItemFormSubmit: false,
   actions: {
-    selectCategory(selection, component){
+    selectCategory(selection){
       if (selection) {
         this.set('category',selection);
 
