@@ -1,4 +1,17 @@
-# Ecommerce
+
+# Week 4: Javascript - Ember Extended Pair Project
+
+### Project: My Store
+
+#### By Fernanda Lowe and Farnoosh Johnson
+
+
+## Project Description
+
+This is an e-commerce website that allow users/shoppers to add multiple items to their shopping cart, to see the total cost of all items in the cart, to select an item and see a description, cost, and other details, and to see list of products on sale.
+On the admin or seller side, it allows you to add, update or remove products you wish to.
+
+## Ember Description
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
