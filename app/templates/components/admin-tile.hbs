@@ -1,7 +1,7 @@
 <div class="container">
 
   <form class="form-signin">
-    <h2 class="form-signin-heading">Please Add Item</h2>
+    <h2 class="form-signin-heading">Add Item</h2>
     {{#x-select action="selectCategory"}}
       {{#x-option value=""}}please select a category{{/x-option}}
       {{#each categories as |category|}}
@@ -27,12 +27,12 @@
     <br>
     <button class="btn btn-lg btn-primary btn-block" {{action 'addItem'}}>Add Item</button>
   </form>
-  <h3> Item that being added: </h3>
+  <h3> Item being added: </h3>
   {{#if addItemFormSubmit}}
     <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> {{lastItemToSHow}} in {{category.title}} has been added successfully.</div>
   {{else}}
   <p>
-    there is no item added
+    No item added yet
   </p>
   {{/if}}
 </div> <!-- /container -->
